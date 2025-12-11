@@ -1,0 +1,61 @@
+# =====================================================
+# Bennett Chiropractic Clinic - Robots.txt
+# https://www.bennettchiropracticfayette.com
+# =====================================================
+
+# Allow all search engine crawlers
+User-agent: *
+
+# Allow crawling of all pages
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.bennettchiropracticfayette.com/sitemap.xml
+
+# =====================================================
+# Specific Bot Instructions
+# =====================================================
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Google Images
+User-agent: Googlebot-Image
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# =====================================================
+# Block Bad Bots (Common Scrapers/Spam Bots)
+# =====================================================
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# =====================================================
+# Crawl Delay (Optional - uncomment if needed)
+# Helps prevent server overload from aggressive crawlers
+# =====================================================
+
+# User-agent: *
+# Crawl-delay: 10
